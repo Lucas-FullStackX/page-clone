@@ -1,7 +1,46 @@
-
 body {
-    color: #b3b3b3;
-    font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
-    text-transform: none;
+  color: #b3b3b3;
+  font-family: spotify-circular, spotify-circular-cyrillic,
+    spotify-circular-arabic, spotify-circular-hebrew, Helvetica Neue, helvetica,
+    arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic, sans-serif;
+  text-transform: none;
 }
-
+footer {
+  background-color: #181818;
+  border: 1px solid #282828;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 90px;
+  padding: 0 16px;
+  bottom: 0;
+  left: 0;
+}
+.song {
+  width: 56px;
+}
+.container-song {
+  display: flex;
+  align-items: center;
+}
+.fa-heart {
+  color: #1ed760;
+}
+.song-name {
+  display: grid;
+  margin: 0 14px;
+}
+.song-name span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fafafa;
+}
+.song-name span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fafafa;
+}
+.song-title a {
+  font-size: 12px;
+}
